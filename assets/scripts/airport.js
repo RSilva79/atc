@@ -1003,6 +1003,7 @@ function airport_init() {
   airport_load("sbgr");
   airport_load("sbgl");
   airport_load("saez");
+  airport_load("sbeg");
 
   //  RUSSIA AIRPORTS
   airport_load("uudd");

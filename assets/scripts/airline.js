@@ -160,8 +160,12 @@ function airline_init() {
   // South American
   airline_load("ONE");
   airline_load("GLO");
+  airline_load("INC");
+  airline_load("PAM");
   airline_load("TAM");
   airline_load("AVA");
+  airline_load("VCV");
+  airline_load("TTL");
   airline_load("AZU");
   airline_load("EMBRAER");
   airline_load("ARG");
@@ -205,6 +209,7 @@ function airline_init() {
   airline_load("SA-KAL");
   airline_load("SA-KLM");
   airline_load("SA-LAN");
+  airline_load("SA-TAP");
   airline_load("SA-UAE");
   airline_load("SA-UAL");
 

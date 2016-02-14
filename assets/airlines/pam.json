@@ -1,0 +1,12 @@
+{
+  "name": "MAP Linhas Aéreas",
+  "callsign": {
+    "name": "PAM",
+    "length": 3
+  },
+  "aircraft": [
+    
+    ["AT43", 2 ],
+    ["AT72", 2 ]
+  ]
+}

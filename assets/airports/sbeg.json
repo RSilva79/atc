@@ -1,0 +1,160 @@
+{
+  "name": "Aeroporto Internacional Eduardo Gomes",
+  "level": "beginner",
+  "radio": {
+    "twr": "Eduardo Gomes Tower",
+    "app": "Manaos Approach",
+    "dep": "Manaos Departure"
+  },
+  "icao": "SBEG",
+  "iata": "MAO",
+  "magnetic_north": 0,
+  "ctr_radius": 74.08,
+  "position": ["S3.038889", "W060.0461"],
+  "rr_radius_nm": 5.0,
+  "rr_center": ["S3.038889", "W060.0461"],
+  "has_terrain": false,
+  "wind": {
+    "angle": 110,
+    "speed": 6
+  },
+    "_comment": "Waypoints base on real and virtual charts http://download.diegolima.org/Cartas%20Aereas/app_dep/sbeg.pdf",
+  
+  "fixes": {
+    "DADRA": ["S3d26.73", "W59d57.03"],
+    "GAXID": ["S3d10.94", "W60d15.64"],
+    "EPKIN": ["S3d16.62", "W60d23.89"],
+    "ELOPE": ["S3d39.28", "W60d22.94"],
+    "LUSUK": ["S3d5.32", "W60d47.36"],
+    "MAN": ["S3d2.40", "W60d3.28"],
+    "KODLU": ["S2d51.65", "W60d13.79"],
+    "KAMIR": ["S2d38.47", "W60d39.76"],
+    "ILKUP": ["S2d44.48", "W60d20.79"],
+    "LUVMA": ["S2d30.59", "W60d31.94"],
+    "ROLIK": ["S2d25.36", "W60d23.43"],
+    "SIPOX": ["S2d22.21", "W60d11.32"],
+    "ISIVA": ["S2d23.00", "W59d59.43"],
+    "TEPEM": ["S2d33.71", "W59d39.31"],
+    "AGTAL": ["S2d46.89", "W59d30.53"],
+    "RANU": ["S2d53.5", "W59d46.5"],
+    "UDILO": ["S2d57.73", "W59d27.76"],
+    "LAUPO": ["S3d4.24", "W59d27.56"],
+    "MASDU": ["S3d4.81", "W59d38.41"],
+    "BREGA": ["S3d13.50", "W59d29.12"],
+    "PEL": ["S3d8.6", "W59d59.6"],
+    "UTPAM": ["S3d31.96", "W59d40.59"],
+    "VAKUS": ["S3d34.59", "W59d43.78"],
+    "VURUM": ["S3d36.93", "W59d47.33"]
+   },
+  "runways": [
+    {
+      "name": ["10", "28"],
+      "name_offset": [[0, 0], [0, 0]],
+      "end": [["S3.038611", "W60.061944"], ["S3.038611", "W60.0375"]],
+      "length": 3.420,
+      "delay": [10, 45],
+      "ils": [true, false]
+    }
+    
+  ],
+  "departures": {
+    "sids": {
+      "AGTAL": ["PEL","MASDU", "AGTAL"],
+      "VAKUS": ["PEL","DADRA", "VAKUS"],
+      "ELOPE": ["PEL", "GAXID", "EPKIN", "ELOPE"],
+      "LUSUK": ["GAXID", "EPKIN", "LUSUK"]
+    
+    },
+    "airlines": [
+      ["TAM", 10],
+      ["GLO", 10],
+      ["AZU", 10],
+      ["EMBRAER", 3],
+      ["PAM", 2],
+      ["VCV", 2],
+      ["TTL", 1],
+      ["INC", 1],
+      ["RGR", 1],
+      ["ACA/long", 2],
+      ["AAL/long", 5],
+      ["SA-TAP", 1],
+      ["SA-AFR", 2],
+      ["SA-LAN", 7],
+      ["SA-UAE", 3],
+      ["SA-UAL", 5],
+      ["FAB", 1]
+    ],
+    "destinations": [
+      60, 145, 210, 260
+    ],
+    "frequency": [2, 6.5]
+  },
+  
+  "arrivals":[
+    {
+      "radial": 60,
+      "speed": 250,
+      "fixes": ["TEPEM", "RANU"],
+      "airlines": [
+      ["PAM", 5],
+      ["VCV", 2],
+      ["SA-TAP", 1],
+      ["TTL", 5],
+      ["INC", 1],
+      ["RGR", 2],     
+      ["TAM", 20],
+      ["GLO", 20],
+      ["AZU", 20],
+      ["PAM", 10],
+      ["FAB", 10]
+      ],
+      "frequency": [30, 120],
+      "altitude": [5000, 7000]
+    },
+    
+    {
+      "radial": 350,
+      "speed": 250,
+      "fixes": ["SIPOX", "ILKUP"],
+      "airlines":[
+     
+      ["AZU", 15],
+      ["UPS", 1],
+      ["FDX", 1],
+      ["ACA/long", 2],
+      ["AAL/long", 5],
+      ["PAM", 2],
+      ["VCV", 5],
+      ["FAB", 10]
+      ],
+      "frequency": [10, 40],
+      "altitude": [7000, 9000]
+    },
+    {
+      "radial": 290,
+      "speed": 250,
+      "fixes": ["KAMIR", "ILKUP","KODLU"],
+      "airlines": [
+      ["TAM", 15],
+      ["GLO", 15],
+      ["AZU", 30],
+      ["PAM", 2],
+      ["VCV", 5],
+      ["FAB", 5]
+      
+      ],
+      "frequency": [10, 40],
+      "altitude": [7000, 9000]
+    },
+    {
+      "radial": 280,
+      "fixes": ["GAXID", "MAN","KODLU"],
+      "speed": 120,
+      "airlines": [
+        ["lightga", 1]
+      ],
+      "frequency": [20, 60],
+      "altitude": [5000, 7000]
+    }
+  ]
+}

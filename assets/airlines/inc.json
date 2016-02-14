@@ -1,0 +1,13 @@
+{
+  "name": "Insel Air",
+  "callsign": {
+    "name": "INC",
+    "length": 3
+  },
+  "aircraft": [
+        ["F100", 6 ],
+    ["DC10", 4 ]
+    
+
+  ]
+}

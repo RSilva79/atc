@@ -1,0 +1,17 @@
+{
+  "name": "Conviasa Lineas Aereas",
+  "icao": "VCV",
+  "callsign": {
+    "name": "Conviasa",
+    "length": 3
+  },
+  "aircraft": [
+    ["A343", 1 ],
+    ["B733", 3 ],
+    ["E190", 16 ],
+    ["AT43", 1 ],
+    ["AT72", 1 ],
+    ["C208", 7 ]
+
+  ]
+}

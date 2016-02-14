@@ -1,0 +1,23 @@
+{
+  "name": "TAP Portugal Linhas Aereas",
+  "icao": "TAP",
+  "callsign": {
+    "name": "TAP",
+    "length": 3
+  },
+  "aircraft": [
+    ["A319", 21 ],
+
+    ["A320", 19 ],
+
+    ["A321", 3 ],
+    
+    ["A330", 14 ],
+    ["A340", 4 ],
+
+    ["F100", 6 ],
+    ["AT43", 3 ]
+    
+
+  ]
+}
